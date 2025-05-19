@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@media screen and (max-width: 599px) {
+    .modulo > p {
+        font-size: 0.9em;
+    }
+
+    .modulo > p,
+    .modulo h3,
+    .modulo h4 {
+        box-shadow: 1px solid black;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+    }
+}
