@@ -26,6 +26,7 @@ header{ margin: 5px;
     
 }
 .quemekael{
+    color: white;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -43,10 +44,11 @@ header{ margin: 5px;
     text-align: justify;
 }
 .modulo>p,h3,h4{
-
+    background: rgba(0, 0, 0, 0.39);
     font-size: 1.3em;
     color: white;
-    text-align: center;
+    text-align: left ;border-radius: 10px;
+
 }
 #m01{
     background: url(../imagens/kael-modulo-01.png);
@@ -63,5 +65,14 @@ header{ margin: 5px;
     background-size: cover;
     background-attachment: fixed;
 }
-
+#m04{
+    background: url(../imagens/modulo-04.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#m05{
+    background: url(../imagens/modulo\ 5.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
